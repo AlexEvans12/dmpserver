@@ -1,0 +1,95 @@
+pid = 689c90ec6efc465590b7c4b227486eab
+name = Ast. CKV-845
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 2352.5954104999978
+lct = 2352.5954104999978
+lastUT = -1
+root = 0
+lat = 1.6822194680905962
+lon = -178.67915675960984
+alt = 14101994035.938332
+hgt = -1
+nrm = 0,1,0
+rot = -0.547650933,-0.559516728,0.610395193,0.120154962
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14141458781.334736
+	ECC = 0.036460399371173111
+	INC = 2.0238388778547796
+	LPE = 173.61890541310217
+	LAN = 127.06991561867562
+	MNA = 0.14709676371910307
+	EPH = 3311198.6403323752
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 155537464
+	mid = 155537464
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 2352.5954104999978
+	lifetime = 259282.10906982422
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

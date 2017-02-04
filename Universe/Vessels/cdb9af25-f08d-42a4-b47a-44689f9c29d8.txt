@@ -1,0 +1,95 @@
+pid = cdb9af25f08d42a4b47a44689f9c29d8
+name = Ast. VVR-411
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 2352.5954104999978
+lct = 2352.5954104999978
+lastUT = -1
+root = 0
+lat = 0.47028309576587701
+lon = 179.89179188681524
+alt = 14157447586.339518
+hgt = -1
+nrm = 0,1,0
+rot = -0.188208178,-0.563640416,-0.703294098,0.390211016
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14394443886.78409
+	ECC = 0.05982105971085834
+	INC = 0.49710388031347086
+	LPE = 203.96928795760161
+	LAN = 72.944871771704584
+	MNA = -0.43051886868755085
+	EPH = 1771324.4032718281
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 587123348
+	mid = 587123348
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 2352.5954104999978
+	lifetime = 864153.91845703125
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

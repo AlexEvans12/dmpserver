@@ -1,0 +1,95 @@
+pid = 27b53db72696467a8c01e2f319f12e7b
+name = Ast. STX-774
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 2352.5954104999978
+lct = 2352.5954104999978
+lastUT = -1
+root = 0
+lat = 0.10000932683620228
+lon = 178.45798379859596
+alt = 13354203899.676483
+hgt = -1
+nrm = 0,1,0
+rot = -0.691244543,-0.405466318,-0.564813018,0.196886659
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13602831095.526058
+	ECC = 0.0018883785733844814
+	INC = 0.41327928696383809
+	LPE = 45.569326294895333
+	LAN = 14.422249985543317
+	MNA = -0.85278272941439581
+	EPH = 4884380.4030276872
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 474307322
+	mid = 474307322
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 2352.5954104999978
+	lifetime = 496690.98815917969
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

@@ -1,0 +1,95 @@
+pid = a7c75f0e8b6f4d85a9b49d99b2e82269
+name = Ast. LWK-647
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 2352.5954104999978
+lct = 2352.5954104999978
+lastUT = -1
+root = 0
+lat = -1.0151330221884225
+lon = -150.10318616890507
+alt = 17893673992.07058
+hgt = -1
+nrm = 0,1,0
+rot = 0.420067489,-0.720563054,0.511588275,0.206420928
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16115216126.248384
+	ECC = 0.15300748349035909
+	INC = 1.4812093168512594
+	LPE = 13.748049032122578
+	LAN = 348.60127430595679
+	MNA = -0.097249115005985307
+	EPH = 4465155.634961281
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 747072069
+	mid = 747072069
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 2352.5954104999978
+	lifetime = 555824.88555908203
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}

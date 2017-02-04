@@ -1,0 +1,95 @@
+pid = a3c2b4d472e64029abb381dc514a0f14
+name = Ast. KTK-793
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 2352.5954104999978
+lct = 2352.5954104999978
+lastUT = -1
+root = 0
+lat = 0.16690549733508295
+lon = 177.06488525836136
+alt = 13728857032.586382
+hgt = -1
+nrm = 0,1,0
+rot = 0.647453547,-0.368496418,-0.404446125,0.530507028
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14824705838.531872
+	ECC = 0.080839882437076974
+	INC = 0.18952582454886061
+	LPE = 167.58915321377398
+	LAN = 60.745898406593255
+	MNA = 0.059472222109342339
+	EPH = 1339764.5705081562
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	cid = 0
+	uid = 321270633
+	mid = 321270633
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	symMethod = Radial
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sqor = 0
+	sepI = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	shielded = False
+	temp = -1
+	tempExt = 0
+	tempExtUnexp = 0
+	expt = 0.100000001
+	state = 0
+	attached = True
+	autostrutMode = Off
+	rigidAttachment = False
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 2352.5954104999978
+	lifetime = 1416672.0703125
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
+VESSELMODULES
+{
+	FlightIntegrator
+	{
+	}
+	CommNetVessel
+	{
+		controlState = None
+		canComm = True
+	}
+}
