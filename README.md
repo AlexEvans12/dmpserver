@@ -1,3 +1,3 @@
 # dmpserver
 
-This is not something I created.  I simply clone the repository here for testing purposes.
+This is not something I created.  I simply cloned the repository here for testing purposes.
